@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    
+<div class="wrapper">
+    <div id="loginn" class="a">
+        <input type="email" id="email" placeholder="Enter your email adress here" required>
+		<input type="password" id="password" placeholder="Enter you password here" required>
+		<button id="sign_in" type="submit">Sign in</button>
+		<button id="register" type="submit">Register</button>
+        <p id="error"></p>
+    </div>
+    <div id="signoutt">
+		<p class="a" id="ok"></p>
+		<button id="signout" class="a" type="submit">Sign out</button> 
+    </div>
+</div>
+
+	<div id="blogSection" class="a">
+		<input id="title" type="text" placeholder="Title" required>
+		<input id="contentBlog" type="text" placeholder="Type the content of your blogtext here..." required></textarea>
+		<button id="submitPost">Post</button>
+    </div>
+	<div id="blogValue"></div>	
+
+<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
+

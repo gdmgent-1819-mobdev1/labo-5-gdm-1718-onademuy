@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: arial;
+    color: black;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sign_in, #register{
+	color: white;
+	width: 100%;
+    background-color:darkblue;
+    text-align: center;
+}
+
+#signout{
+    color: white;
+    width: 50%;
+    background-color: orange;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+#signoutt{
+	position: fixed;
+	width: 20%;
+	top: 14px;
+	right: 14px;
+	text-align: right;
+}
+
+input{
+    width: 100%;
+    padding: 10px 0;
+	margin: 10px 0;
+}
+
+#error{
+	text-align: center;
+    color: red;
+}
+
+#title{
+	width: 80%;
+}
+
+#submitPost{
+	background-color: white;
+}
+
+.post{
+    margin: 30px 0;
+    border: 1px solid lightgrey;
+    box-shadow: 2px 2px 2px 2px grey;
+    align-items: center;
+}
